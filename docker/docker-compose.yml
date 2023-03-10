@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app:
     container_name: 'app'
-    image: ${image}
+    image: testfunc
     build:
       dockerfile: Dockerfile
       context: ../
