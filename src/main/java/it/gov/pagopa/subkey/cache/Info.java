@@ -20,7 +20,6 @@ import com.microsoft.azure.functions.annotation.HttpTrigger;
  */
 public class Info {
 
-  
 	/**
 	 * This function will be invoked when a Http Trigger occurs
 	 */
