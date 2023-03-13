@@ -14,7 +14,6 @@ import com.microsoft.azure.functions.annotation.AuthorizationLevel;
 import com.microsoft.azure.functions.annotation.FunctionName;
 import com.microsoft.azure.functions.annotation.HttpTrigger;
 
-
 /**
  * Azure Functions with Azure Http trigger.
  */
@@ -37,6 +36,4 @@ public class Info {
 
       return request.createResponseBuilder(HttpStatus.OK).build();
 	}
-
-
 }
